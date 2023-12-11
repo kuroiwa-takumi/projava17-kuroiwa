@@ -178,4 +178,6 @@ s ==> "123"
 
 jshell> String sc = "%,d".formatted(12345)
 sc ==> "12,345"
+```
+
 

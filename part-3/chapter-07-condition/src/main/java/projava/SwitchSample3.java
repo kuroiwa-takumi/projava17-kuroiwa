@@ -14,7 +14,7 @@ package projava;
 public class SwitchSample3 {
 
     public static void main(String[] args) {
-        var a = 3;
+        var a = 5;
         switch (a) {
             case 1:
             case 2:
@@ -25,6 +25,9 @@ public class SwitchSample3 {
                 break;
             case 4:
                 System.out.println("four");
+                break;
+            case 5:
+                System.out.println("five");
                 break;
             default:
                 System.out.println("other");
